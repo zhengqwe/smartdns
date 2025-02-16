@@ -13,7 +13,7 @@ jobs:
       - name: fetch upstream
         uses: tgymnich/fork-sync@v1.3
         with:
-          owner: zhengqwe
+          owner: pymumu
           base: master
           head: master
           auto_approve: true
