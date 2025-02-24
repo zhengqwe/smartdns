@@ -35,7 +35,7 @@ jobs:
     needs: get-version
     strategy:
       matrix:
-        goarch: [x86_64, powerpc64le, mipsel, mips, i686, aarch64, armv7l]
+        goarch: [x86_64, aarch64]
       fail-fast: false
     runs-on: ubuntu-latest
     env:
